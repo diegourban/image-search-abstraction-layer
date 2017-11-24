@@ -20,10 +20,10 @@ User Stories:
 
 Get the port of your app that Docker mapped on your machine.
 
-`http://localhost:3000/api/imagesearch/lolcats funny?offset=10` - to search
+`http://localhost:3000/api/imagesearch/lolcats?offset=10` - to search
 
 `http://localhost:3000/api/latest/imagesearch/` - to list the latest searches
 
 ## Example Output
 
-`[{"term":"lolcats funny","when":"2017-11-23T21:40:28.111Z"},{"term":"minecraft","when":"2017-11-23T21:28:13.399Z"}]` - latest searches
+`[{"term":"lolcats","when":"2017-11-23T21:40:28.111Z"},{"term":"minecraft","when":"2017-11-23T21:28:13.399Z"}]` - latest searches
