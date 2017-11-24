@@ -25,7 +25,7 @@ Get the port of your app that Docker mapped on your machine.
 
 `http://localhost:3000/api/imagesearch/lolcats funny?offset=10` - to search
 
-`https://localhost:3000/api/latest/imagesearch/` - to list the latest searches
+`http://localhost:3000/api/latest/imagesearch/` - to list the latest searches
 
 ## Example Output
 
