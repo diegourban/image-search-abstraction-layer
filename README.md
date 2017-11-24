@@ -18,8 +18,6 @@ User Stories:
 
 ## Example Usage
 
-Get the port of your app that Docker mapped on your machine.
-
 `http://localhost:3000/api/imagesearch/lolcats?offset=10` - to search
 
 `http://localhost:3000/api/latest/imagesearch/` - to list the latest searches
