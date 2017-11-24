@@ -1,9 +1,8 @@
 const mongoose = require('mongoose');
 const express = require('./config/express');
 const config = require('./config');
-
 const app = express();
-console.log(process.env.NODE_ENV);
+
 connect()
 .on('error', console.log)
 .on('disconnected', connect)
