@@ -16,8 +16,6 @@ User Stories:
 ## Usage
 * `docker-compose up` - to start the services
 
-* `docker-compose down` - to stop the services
-
 ## Example Usage
 
 Get the port of your app that Docker mapped on your machine.
