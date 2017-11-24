@@ -9,7 +9,6 @@ User Stories:
 
 ## Requirements
 * Docker
-* Create a Google Custom Search Engine: https://cse.google.com/cse
 
 ## Installation
 * `docker-compose build` - to build mongodb and node services
@@ -29,4 +28,4 @@ Get the port of your app that Docker mapped on your machine.
 
 ## Example Output
 
-`[{"term":"lolcat","when":"2017-11-23T21:40:28.111Z"},{"term":"minecraft","when":"2017-11-23T21:28:13.399Z"}]` - latest searches
+`[{"term":"lolcats","when":"2017-11-23T21:40:28.111Z"},{"term":"minecraft","when":"2017-11-23T21:28:13.399Z"}]` - latest searches
